@@ -8,6 +8,9 @@
     "zod": "^3.24.1",
     "zod-to-json-schema": "^3.24.1"
   },
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts"
+  },
   "devDependencies": {
     "@types/node": "^22.10.2",
     "ts-node-dev": "^2.0.0",
