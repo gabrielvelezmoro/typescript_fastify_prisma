@@ -9,10 +9,5 @@
         "src": "/(.*)",
         "dest": "/src/app.ts"
       }
-    ],
-    "functions": {
-    "node": {
-      "runtime": "nodejs18.x"
-    }
-  }
+    ]
 }
