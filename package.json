@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts",
     "vercel-build": "npx prisma migrate deploy",
-    "postinstall": "prisma generate"
+    "postinstall": "npx prisma generate"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
