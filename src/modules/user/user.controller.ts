@@ -32,7 +32,6 @@ export async function loginHandler(request: FastifyRequest<{Body: LoginInput}>, 
 
      if (correctPassword){
           const {password,salt, ...rest} = user
-          console.log(rest)
 
           return {accessToken: server.jwt.sign(rest)}
      }
